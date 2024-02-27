@@ -7,7 +7,7 @@ const app = new Koa();
 const router = new Router();
 
 const pool = new Pool({
-  host: "db",
+  host: "localhost",
   port: 5432,
   user: "admin",
   password: "123",
